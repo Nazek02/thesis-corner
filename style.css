@@ -1,0 +1,125 @@
+
+/* GENERAL WEBSITE DESIGN */
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #14243A;
+    color: #E9DFC9;
+}
+
+/* WELCOME SECTION */
+
+header {
+    background-color: #203955;
+    text-align: center;
+    padding: 90px 20px;
+    border-bottom: 2px solid #A99570;
+}
+
+.welcome {
+    color: #C7B99F;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+header h1 {
+    font-family: "Old English Text MT", Georgia, serif;
+    font-size: 55px;
+    color: #F2E9D8;
+    margin: 25px 0;
+    letter-spacing: 2px;
+}
+
+header h2 {
+    font-family: "Modern No. 20", Georgia, serif;
+    font-size: 27px;
+    font-weight: normal;
+    color: #E9DFC9;
+    font-style: italic;
+}
+
+.intro {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: 25px auto 0;
+    color: #E9DFC9;
+}
+
+/* NAVIGATION MENU */
+
+nav {
+    background-color: #101C2C;
+    text-align: center;
+    padding: 23px;
+    border-bottom: 1px solid #A99570;
+}
+
+nav a {
+    color: #E9DFC9;
+    text-decoration: none;
+    margin: 18px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #C5A878;
+}
+
+/* MAIN CONTENT */
+
+main {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #203955;
+    padding: 35px;
+    margin-bottom: 30px;
+    border: 1px solid #A99570;
+    border-radius: 5px;
+}
+
+section h2 {
+    font-family: "Modern No. 20", Georgia, serif;
+    color: #F2E9D8;
+    font-size: 30px;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #101C2C;
+    color: #E9DFC9;
+    text-align: center;
+    padding: 30px;
+}
+
+/* MOBILE DESIGN */
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 37px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 9px;
+    }
+
+    main {
+        padding: 12px;
+    }
+}
