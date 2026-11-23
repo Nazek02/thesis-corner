@@ -1,4 +1,11 @@
 
+@font-face {
+    font-family: "UnifrakturCook";
+    src: url("fonts/UnifrakturCook-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
 /* GENERAL WEBSITE DESIGN */
 
 body {
@@ -25,7 +32,7 @@ header {
 }
 
 header h1 {
-    font-family: "Old English Text MT", Georgia, serif;
+    font-family: "UnifrakturCook", Georgia, serif;
     font-size: 55px;
     color: #F2E9D8;
     margin: 25px 0;
